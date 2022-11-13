@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Serif', serif;
+}
+body{
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+}
+
+.container-wrapper{
+    height: 1000px;
+    width: 800px;
+    display: flex;
+    padding: 2em 0;
+    
+
+}
+.left{
+    height: 100%;
+    width: 50%;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.right{
+    height: 100%;
+    width: 50%;
+    background-color: #BAC2FF;   
+}
+.img-container{
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    background-image: url("myImage.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-inline: auto;
+    margin-top: 4em;
+    border: 2px solid #BAC2FF;
+}
+.name{
+    font-size: 40px;
+    margin-inline: auto;
+    margin-top: 2em;
+}
+.title{
+    margin-inline: auto;
+    text-transform: uppercase;
+    margin-top: 1em;
+}
+.information{
+    padding: .5em 4em;
+    margin-top: 2em;
+    font-weight: 600;
+    line-height: 25px;
+}
+.icon-box{
+    display: flex;
+    flex-direction: row;
+}
+
+.icons{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+    margin-left: 1em;
+    line-height: 30px;
+    gap: 1em;
+}
+.line{
+    margin-left: .4em;
+}
+
+.icon-title{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+    margin-left: 1em;
+    line-height: 30px;
+    gap: 1em;
+}
+.experience{
+    margin-top: 2em;
+    margin-left: 2em;
+}
+.right-line{
+    margin-top: 2em;
+    width:150px;
+    border-style:none;
+    border-top: 1px solid #000;
+}
+.right-title{
+    color:#000;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+.info{
+    font-size: 20px;
+    line-height: 1.5em;
+}
+#fd{
+    margin-top: 1.5em;
+}
+.projects{
+    margin-top: 2em;
+    margin-left: 2em;  
+}
+#wf{
+    margin-top: 1.5em;
+}
+.skills{
+    margin-top: 2em;
+    margin-left: 2em; 
+}
+#rjs{
+    margin-top: .5em;
+}
